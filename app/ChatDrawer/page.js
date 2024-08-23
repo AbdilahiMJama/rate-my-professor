@@ -30,14 +30,14 @@ function ChatDrawer({onSendMessage}) {
 
     return (
         <Paper
-            elevation={3}
+            elevation={20}
             sx={{
                 width: { xs: '70vw', sm: '50vw', md: '30vw' },
                 bottom: 0,
                 left: 0,
                 right: 0,
                 height: '77.5px',
-                bgcolor: "#F3E9DC",
+                bgcolor: "white",
                 borderTopLeftRadius: 10,
                 borderTopRightRadius: 10,
                 borderBottomLeftRadius: 10,

@@ -11,16 +11,16 @@ export default function Home() {
   const isMdScreen = useMediaQuery(theme.breakpoints.only('md'));
 
   const getTitleSize = () => {
-    if (isXsScreen) return '0.8rem';
-    if (isSmScreen) return '1rem';
-    if (isMdScreen) return '1.5rem';
+    if (isXsScreen) return '1.5rem';
+    if (isSmScreen) return '3rem';
+    // if (isMdScreen) return '1.5rem';
     return '3rem';
   };
 
   const getDescriptionSize = () => {
-    if (isXsScreen) return '0.4rem';
-    if (isSmScreen) return '0.5rem';
-    if (isMdScreen) return '0.8rem';
+    if (isXsScreen) return '0.8rem';
+    if (isSmScreen) return '1rem';
+    // if (isMdScreen) return '1rem';
     return '1rem';
   };
   // We'll add more code here in the following steps
@@ -31,7 +31,7 @@ export default function Home() {
     },
   ])
   const [message, setMessage] = useState('')
-  const sendMessage = async () => {
+  const sendMessage = async (message) => {
     setMessage('')
     setMessages((messages) => [
       ...messages,
@@ -71,6 +71,7 @@ export default function Home() {
 
   const handleSendMessage = (newMessage) => {
     // Update the state with the new message
+    // console.log(newMessage)
     setMessage(newMessage);
     sendMessage(newMessage)
   };
@@ -95,9 +96,10 @@ export default function Home() {
       <NavigationAppBar></NavigationAppBar>
 
       <Box
-        sx={{ mt: 10, width: { xs: '80vw', sm: '80vw', md: '60vw' } }}
+        sx={{ mt: 5, width: { xs: '80vw', sm: '80vw', md: '70vw' } }}
         height={"90%"}
         bgcolor={"white"}
+        border={"2px solid white"}
         borderRadius={"10px"}
         boxShadow={"10"}
         display={"flex"}
@@ -105,10 +107,9 @@ export default function Home() {
         overflow={"hidden"}
       >
         <Box
-          width="100%"
           height="10%"
           minHeight="60px"
-          bgcolor="#F3E9DC"
+          bgcolor="#1b1b1b"
           padding="0 20px"
           display="flex"
           flexDirection="row"
@@ -117,19 +118,19 @@ export default function Home() {
         >
           <Typography
             variant="h3"
-            color="black"
+            color="white"
             fontFamily="Comic Sans MS, Comic Sans, cursive"
             whiteSpace="nowrap"
             sx={{ fontSize: getTitleSize() }}
           >
             Prof. GPT
           </Typography>
-          <Typography variant="h3" color="black" fontFamily="Helvetica" sx={{ fontSize: getTitleSize() }}>
+          <Typography variant="h3" color="white" fontFamily="Helvetica" sx={{ fontSize: getTitleSize() }}>
             |
           </Typography>
           <Typography
             variant="body1"
-            color="black"
+            color="white"
             fontFamily="Comic Sans MS, Comic Sans, cursive"
             whiteSpace={"break-spaces"}
             sx={{
@@ -142,7 +143,7 @@ export default function Home() {
           </Typography>
         </Box>
         <Box
-          bgcolor={"white"}
+          bgcolor={"whitesmoke"}
           width={"100%"}
           height={"80%"}
           minHeight={"200px"}
@@ -166,10 +167,13 @@ export default function Home() {
                     borderRadius={4}
                     p={1}
                     sx={{
-                      background: message.role === 'assistant'
-                        ? 'linear-gradient(135deg, #c08552 0%, #8B5CF6 100%)'
-                        : 'linear-gradient(135deg, #895726 0%, #3B82F6 100%)',
-                      color: "#F3E9DC",
+                      // background: message.role === 'assistant'
+                      //   ? 'linear-gradient(135deg, #c08552 0%, #8B5CF6 100%)'
+                      //   : 'linear-gradient(135deg, #895726 0%, #3B82F6 100%)',
+                      bgcolor:'#1b1b1b',
+                      border: message.role === 'assistant'
+                        ? '2px solid white'
+                        : '2px solid green',
                       borderRadius: '12px',
                       padding: '16px',
                       boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08)',
@@ -182,6 +186,7 @@ export default function Home() {
 
                   >
                     <Typography variant="body1" sx={{
+                      fontFamily:'sans-serif',
                       fontSize: getDescriptionSize(),
                       overflowWrap: 'break-word',
                       wordBreak: 'break-word',
@@ -196,7 +201,7 @@ export default function Home() {
             }
           </Stack>
         </Box>
-        <Box marginBottom={"1vh"} maxWidth={"100%"} display={"flex"} justifyContent={"center"} alignItems={"center"}>
+        <Box bgcolor={'whitesmoke'} marginBottom={"1vh"} maxWidth={"100%"} display={"flex"} justifyContent={"center"} alignItems={"center"}>
           <ChatDrawer onSendMessage={handleSendMessage}></ChatDrawer>
         </Box>
       </Box>
