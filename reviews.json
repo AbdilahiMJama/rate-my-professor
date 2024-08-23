@@ -1,0 +1,125 @@
+{
+  "reviews": [
+    {
+      "professor": "Dr. John Doe",
+      "subject": "Computer Science 101",
+      "stars": 5,
+      "review": "Excellent professor, very knowledgeable and helpful."
+    },
+    {
+      "professor": "Dr. Alice Johnson",
+      "subject": "Physics 202",
+      "stars": 4,
+      "review": "Great lectures, but sometimes goes too fast."
+    },
+    {
+      "professor": "Dr. Mike Brown",
+      "subject": "Mathematics 101",
+      "stars": 3,
+      "review": "Decent professor, but his lectures can be a bit dull."
+    },
+    {
+      "professor": "Dr. Emily White",
+      "subject": "Biology 303",
+      "stars": 5,
+      "review": "Fantastic teaching style, makes learning fun."
+    },
+    {
+      "professor": "Dr. Richard Lee",
+      "subject": "History 101",
+      "stars": 2,
+      "review": "Difficult to follow during lectures."
+    },
+    {
+      "professor": "Dr. Karen Taylor",
+      "subject": "Chemistry 201",
+      "stars": 4,
+      "review": "Very clear and concise, but sometimes gives too much homework."
+    },
+    {
+      "professor": "Dr. Sarah Wilson",
+      "subject": "English Literature",
+      "stars": 5,
+      "review": "Inspiring lectures, great at explaining complex topics."
+    },
+    {
+      "professor": "Dr. David Miller",
+      "subject": "Philosophy 101",
+      "stars": 3,
+      "review": "Okay professor, but his classes are very early in the morning."
+    },
+    {
+      "professor": "Dr. Linda Martinez",
+      "subject": "Sociology 202",
+      "stars": 4,
+      "review": "Very engaging, uses real-world examples effectively."
+    },
+    {
+      "professor": "Dr. Robert Clark",
+      "subject": "Political Science 101",
+      "stars": 5,
+      "review": "Best professor I've ever had, highly recommend!"
+    },
+    {
+      "professor": "Dr. Laura Lewis",
+      "subject": "Economics 102",
+      "stars": 3,
+      "review": "Good professor, but sometimes hard to understand due to accent."
+    },
+    {
+      "professor": "Dr. James Anderson",
+      "subject": "Statistics 101",
+      "stars": 4,
+      "review": "Good teaching style, but classes can be a bit repetitive."
+    },
+    {
+      "professor": "Dr. Mary Thomas",
+      "subject": "Environmental Science",
+      "stars": 5,
+      "review": "Passionate about the subject, very informative classes."
+    },
+    {
+      "professor": "Dr. William Thompson",
+      "subject": "Psychology 101",
+      "stars": 2,
+      "review": "Doesn't seem very interested in teaching, lectures are boring."
+    },
+    {
+      "professor": "Dr. Jennifer Garcia",
+      "subject": "Marketing 201",
+      "stars": 4,
+      "review": "Creative teaching methods, keeps the class interesting."
+    },
+    {
+      "professor": "Dr. Michael Rodriguez",
+      "subject": "Business Law",
+      "stars": 5,
+      "review": "Very knowledgeable and helpful, excellent professor."
+    },
+    {
+      "professor": "Dr. Patricia Martinez",
+      "subject": "Art History",
+      "stars": 3,
+      "review": "Knows the material, but her lectures are often off-topic."
+    },
+    {
+      "professor": "Dr. Charles Hernandez",
+      "subject": "Engineering 101",
+      "stars": 4,
+      "review": "Great professor, but can be a bit strict with deadlines."
+    },
+    {
+      "professor": "Dr. Barbara Jackson",
+      "subject": "Anthropology 101",
+      "stars": 5,
+      "review": "Engaging and insightful, really knows her stuff."
+    },
+    {
+      "professor": "Dr. Joseph White",
+      "subject": "Music Theory",
+      "stars": 3,
+      "review": "Average professor, his lectures are okay but nothing special."
+    }
+  ]
+}
+
