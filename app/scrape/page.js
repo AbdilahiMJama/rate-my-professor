@@ -8,6 +8,17 @@ export default function Home() {
 
     const [websiteLink, setWebsiteLink] = useState([])
 
+    const scraping = () =>{
+        console.log(websiteLink)
+        const response = fetch('/api/scrape', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({url:websiteLink}),
+          })
+    }
+
     return (
         <Container maxWidth="100vw" sx={{ bgcolor: "whitesmoke", height: "100vh", color: 'black', overflow: 'auto', }}>
             <Head>
@@ -33,7 +44,8 @@ export default function Home() {
                     onChange={(e) => { setWebsiteLink(e.target.value) }}
                     onKeyDown={(e) => {
                         if (e.key === 'Enter') {
-                            console.log(websiteLink);
+                            // console.log(websiteLink);
+                            scraping()
                             setWebsiteLink("")
                         }
                     }}
