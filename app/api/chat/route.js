@@ -48,13 +48,13 @@ export async function POST(req) {
   const pc = new Pinecone({
     apiKey: process.env.PINECONE_API_KEY,
   })
-  const index = pc.index('rag').namespace('ns1')
+  const index = pc.Index('rag').namespace('ns1')
   const openai = new OpenAI()
 
   const text = data[data.length - 1].content
   const embedding = await openai.embeddings.create({
     model: 'text-embedding-3-small',
-    input: text,
+    input: [text],
     encoding_format: 'float',
   })
 
@@ -83,6 +83,7 @@ export async function POST(req) {
   // console.log(results)
   // console.log("this is the result: ", resultString)
 
+// return 
 
   const lastMessage = data[data.length - 1]
   const lastMessageContent = lastMessage.content + resultString

@@ -20,7 +20,7 @@ def getReviewData(url):
   starRating = soup.find('div', class_="RatingValue__Numerator-qw8sqy-2 liyUjw")
 
   # Find reviews
-  ratingBody = soup.find('div', class_="Rating__RatingInfo-sc-1rhvpxz-3 kEVEoU")
+  ratingBody = soup.find_all('div', class_="Rating__RatingInfo-sc-1rhvpxz-3 kEVEoU")
 
   # List of reviews
   jsonList = []

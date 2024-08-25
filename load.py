@@ -28,8 +28,9 @@ client = OpenAI()
 
 # Create embeddings for each review
 for review in data["reviews"]:
+    data = review['professor'] +", "+ str(review['stars']) +", "+ review['subject'] +", "+ review['review']
     response = client.embeddings.create(
-        input=review['review'], model="text-embedding-3-small"
+        input=data, model="text-embedding-3-small"
     )
     embedding = response.data[0].embedding
     processed_data.append(
