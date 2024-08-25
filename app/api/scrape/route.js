@@ -18,7 +18,6 @@ export async function POST(req) {
         }
         console.log(`Stdout: ${stdout}`);
     });
-    //     https://www.ratemyprofessors.com/professor/2741455
 
     exec('python load.py', (error, stdout, stderr) => {
         if (error) {
