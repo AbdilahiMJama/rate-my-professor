@@ -26,8 +26,8 @@ def getReviewData(url):
   jsonList = []
 
   for rating in ratingBody:
-    ratingBodySubject = soup.find( 'div',class_='RatingHeader__StyledClass-sc-1dlkqw1-3 eXfReS')
-    ratingBodyReview = soup.find( 'div',class_="Comments__StyledComments-dzzyvm-0 gRjWel")
+    ratingBodySubject = rating.find( 'div',class_='RatingHeader__StyledClass-sc-1dlkqw1-3 eXfReS')
+    ratingBodyReview = rating.find( 'div',class_="Comments__StyledComments-dzzyvm-0 gRjWel")
 
     format = {
           'professor': profName.text,

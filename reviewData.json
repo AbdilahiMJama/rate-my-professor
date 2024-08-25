@@ -1,34 +1,124 @@
 {
     "reviews": [
         {
-            "professor": "Majed Alqasas ",
-            "stars": "4.9",
-            "subject": " MTH240",
-            "review": "The GOAT of Calculus Profs. His lectures are always a joy to attend. He is great at teaching new concepts, he will explain the theory and always fully solves example questions so that the process is clear. His notes are also very clear and he wastes no time. Every lecture (even 8 am's) are full because he is just that good of an instructor. GOAT!!!"
+            "professor": "Bala Venkatesh ",
+            "stars": "3.8",
+            "subject": " ELE302",
+            "review": "Super knowledgeable and funny; also terrible at teaching. Spends hours on material that you will never be tested on, yet glazes over tested questions.  Someone asked if a certain type of Op-Amp question could be on the midterm; he said yes. When I asked the coordinator he said  \"we would never ask that kind of question\". Don't trust him."
         },
         {
-            "professor": "Majed Alqasas ",
-            "stars": "4.9",
-            "subject": " MTH240",
-            "review": "The GOAT of Calculus Profs. His lectures are always a joy to attend. He is great at teaching new concepts, he will explain the theory and always fully solves example questions so that the process is clear. His notes are also very clear and he wastes no time. Every lecture (even 8 am's) are full because he is just that good of an instructor. GOAT!!!"
+            "professor": "Bala Venkatesh ",
+            "stars": "3.8",
+            "subject": " ELE302",
+            "review": "Bala's not bad. He knows his stuff very well and will explain it again if needed. He's a funny guy who likes to crack jokes during the lecture and is caring about your success. He makes the final exam and that was very hard. The average has apparently been a fail in previous years. He does harder examples in his lecture which prepare you."
         },
         {
-            "professor": "Majed Alqasas ",
-            "stars": "4.9",
-            "subject": " MTH240",
-            "review": "The GOAT of Calculus Profs. His lectures are always a joy to attend. He is great at teaching new concepts, he will explain the theory and always fully solves example questions so that the process is clear. His notes are also very clear and he wastes no time. Every lecture (even 8 am's) are full because he is just that good of an instructor. GOAT!!!"
+            "professor": "Bala Venkatesh ",
+            "stars": "3.8",
+            "subject": " ELE302",
+            "review": "He has good notes. He doesn't let students to ask questions while unmute the microphone. He says to type in the text box which is hard to do. He teach you extra content, no use of losing energy which isn't covered for exams. Notes are better than lectures."
         },
         {
-            "professor": "Majed Alqasas ",
-            "stars": "4.9",
-            "subject": " MTH240",
-            "review": "The GOAT of Calculus Profs. His lectures are always a joy to attend. He is great at teaching new concepts, he will explain the theory and always fully solves example questions so that the process is clear. His notes are also very clear and he wastes no time. Every lecture (even 8 am's) are full because he is just that good of an instructor. GOAT!!!"
+            "professor": "Bala Venkatesh ",
+            "stars": "3.8",
+            "subject": " EE8403",
+            "review": "He is very good prof. with lots of knowledge. He explain thing very well even you don't understand it first time. This is course is tough and you have to study hard. overall, it is very good Couse for knowledge about power system and market with best efforts from prof."
         },
         {
-            "professor": "Majed Alqasas ",
-            "stars": "4.9",
-            "subject": " MTH240",
-            "review": "The GOAT of Calculus Profs. His lectures are always a joy to attend. He is great at teaching new concepts, he will explain the theory and always fully solves example questions so that the process is clear. His notes are also very clear and he wastes no time. Every lecture (even 8 am's) are full because he is just that good of an instructor. GOAT!!!"
+            "professor": "Bala Venkatesh ",
+            "stars": "3.8",
+            "subject": " ELE302",
+            "review": "This professor spends too much time on unnecessary theory and gives almost no real examples. The material covered on his lectures are a joke compared to the assessments. I think it be more effective to skip his class and just use the textbook."
+        },
+        {
+            "professor": "Bala Venkatesh ",
+            "stars": "3.8",
+            "subject": " ELE302",
+            "review": "Bala's a weird prof. I find his classes to be long and boring but his notes are actually REALLY good. Review his notes and practice, PRACTICE, PRACTICE!"
+        },
+        {
+            "professor": "Bala Venkatesh ",
+            "stars": "3.8",
+            "subject": " ELE302",
+            "review": "His notes are great for exam review. The exams aren't that hard if you practice enough. But sometimes in lectures he goes slowly, I've seen him spending an hour on one problem."
+        },
+        {
+            "professor": "Bala Venkatesh ",
+            "stars": "3.8",
+            "subject": " ELE302",
+            "review": "Pros - He goes through analogies to explain the math and is good at answering questions presented to him. Cons - He stays on one topic for too long. Does not use difficult questions. Does not write clear consistent notes and students correct him a lot. His notes are unorganized :/ PS. You need to also study independently if you want to get an A."
+        },
+        {
+            "professor": "Bala Venkatesh ",
+            "stars": "3.8",
+            "subject": " ELE302",
+            "review": "Overall a very decent prof. Hes not mono-tone and he can actually hold your interest for the majority of the lecture. He also is very approachable and humorous"
+        },
+        {
+            "professor": "Bala Venkatesh ",
+            "stars": "3.8",
+            "subject": " ELE302",
+            "review": "Prof. Venkatesh is a very good teacher. Very clear in his lectures."
+        },
+        {
+            "professor": "Bala Venkatesh ",
+            "stars": "3.8",
+            "subject": " ELE302",
+            "review": "Wicked prof"
+        },
+        {
+            "professor": "Bala Venkatesh ",
+            "stars": "3.8",
+            "subject": " ELE302",
+            "review": "He is good ! he post the notes before the class!  but the course is too tough! and many materials  He spend long time to solve one question!  "
+        },
+        {
+            "professor": "Bala Venkatesh ",
+            "stars": "3.8",
+            "subject": " ELE302",
+            "review": "Explains everything slowly and clearly, show up to class and you won't ever have to read the textbook because you will already know everything. Some of his techniques are better than the ones taught in the textbook. Answers all questions with detail. Really good prof and got me to like Electrical Engineering which I was unsure about before. "
+        },
+        {
+            "professor": "Bala Venkatesh ",
+            "stars": "3.8",
+            "subject": " 11",
+            "review": "Very clear professor."
+        },
+        {
+            "professor": "Bala Venkatesh ",
+            "stars": "3.8",
+            "subject": " XXX101",
+            "review": "Excellent professor"
+        },
+        {
+            "professor": "Bala Venkatesh ",
+            "stars": "3.8",
+            "subject": " ELE302",
+            "review": "He seriously needs to think about retirement. He writes all over the board. Doesn't do any reviews. And spend too much time on one question. Avoid his class if u wanna pass."
+        },
+        {
+            "professor": "Bala Venkatesh ",
+            "stars": "3.8",
+            "subject": " ELE302",
+            "review": "respectful, knowledgable"
+        },
+        {
+            "professor": "Bala Venkatesh ",
+            "stars": "3.8",
+            "subject": " ELE302",
+            "review": "This professor explains everything in such detail that Picasso would envy. He even explains stuff from past years that students forgot/didn't understand. He is one of absolute best profs. If you really want to learn electrical engineering, and not just pretend to do so, then Bala Venkatesh is your professor."
+        },
+        {
+            "professor": "Bala Venkatesh ",
+            "stars": "3.8",
+            "subject": " ELE302",
+            "review": "Must create some enthusiasm in the classroom ."
+        },
+        {
+            "professor": "Bala Venkatesh ",
+            "stars": "3.8",
+            "subject": " ELE302",
+            "review": "this guy cant teach, he is boring and does not explain well"
         }
     ]
 }
