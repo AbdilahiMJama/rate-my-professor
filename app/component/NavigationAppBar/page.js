@@ -60,6 +60,7 @@ export default function NavigationAppBar() {
 
         <Button
           disableRipple
+          href="/search"
           sx={{
             color: 'white',
             borderRadius: 5,

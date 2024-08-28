@@ -87,11 +87,6 @@ export default function Home() {
       bgcolor={'white'}
       flexDirection={'column'}
       alignItems={'center'}
-    // sx={{
-    //   backgroundImage: `url('/resources/img/bg1.jpg')`,
-    //   backgroundRepeat: "no-repeat",
-    //   backgroundSize: "cover",
-    // }}
     >
       <NavigationAppBar></NavigationAppBar>
 
@@ -139,7 +134,7 @@ export default function Home() {
               textAlign: { xs: 'center', sm: 'left' }
             }}
           >
-            Your friendly and supportive coffee companion who is always ready to help with professor inquires.
+            Your friendly and supportive companion who is always ready to help with professor inquires.
           </Typography>
         </Box>
         <Box
@@ -167,9 +162,6 @@ export default function Home() {
                     borderRadius={4}
                     p={1}
                     sx={{
-                      // background: message.role === 'assistant'
-                      //   ? 'linear-gradient(135deg, #c08552 0%, #8B5CF6 100%)'
-                      //   : 'linear-gradient(135deg, #895726 0%, #3B82F6 100%)',
                       bgcolor:'#1b1b1b',
                       border: message.role === 'assistant'
                         ? '2px solid white'

@@ -12,7 +12,6 @@ import json
 pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
 
 # Create a Pinecone index
-    # I belive this gives an error when the index already exists
 # pc.create_index(
 #     name="rag",
 #     dimension=1536,

@@ -58,7 +58,6 @@ export async function POST(req) {
     encoding_format: 'float',
   })
 
-  // console.log("help: ",embedding.data[0].embedding)
 
   const results = await index.query({
     topK: 5,
@@ -68,22 +67,17 @@ export async function POST(req) {
 
   let resultString = ''
   results.matches.forEach((match) => {
-    if (match.score >= 0.5) {
+    if (match.score >= 0.3) {
       resultString += `
       Returned Results:
       Professor: ${match.id}
-      Review: ${match.metadata.stars}
+      Review: ${match.metadata.review}
       Subject: ${match.metadata.subject}
       Stars: ${match.metadata.stars}
       \n\n`
     }
   })
 
-  // console.log(text)
-  // console.log(results)
-  // console.log("this is the result: ", resultString)
-
-// return 
 
   const lastMessage = data[data.length - 1]
   const lastMessageContent = lastMessage.content + resultString

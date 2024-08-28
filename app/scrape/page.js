@@ -1,5 +1,4 @@
 'use client'
-import Head from "next/head";
 import NavigationAppBar from "../component/NavigationAppBar/page";
 import { Container, Box, Typography, Divider, Button, TextField, } from "@mui/material";
 import { useState } from "react";
@@ -21,10 +20,6 @@ export default function Home() {
 
     return (
         <Container maxWidth="100vw" sx={{ bgcolor: "whitesmoke", height: "100vh", color: 'black', overflow: 'auto', }}>
-            <Head>
-                <title>Prof Guide</title>
-                <meta name="description" content="" />
-            </Head>
             <NavigationAppBar></NavigationAppBar>
 
             <Box
